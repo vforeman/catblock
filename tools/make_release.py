@@ -56,7 +56,7 @@ if args.browser == "firefox":
         os.chdir("catblock_firefox")
 
         # Remove tools folder from /catblock_firefox folder
-        shutil.rmtree("tools")
+        #shutil.rmtree("tools")
 
         # Remove keys from manifest, which are not supported yet
         with open("manifest.json", "w") as ff_manifest:
